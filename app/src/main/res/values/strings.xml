@@ -9,4 +9,6 @@
     <string name="acceptedDigits">tfTF</string>
     <string name="hint">T or F</string>
     <string name="submit">submit</string>
+    <string name="correct">Holy cow your answer is correct!</string>
+    <string name="incorrect">Your answer is incorrect! Try it again...</string>
 </resources>
