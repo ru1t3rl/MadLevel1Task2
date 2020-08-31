@@ -6,13 +6,227 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <EditText
+        android:id="@+id/inputRow4"
+        android:layout_width="89dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="63dp"
+        android:autoText="false"
+        android:digits="@string/acceptedDigits"
+        android:ems="10"
+        android:hint="@string/hint"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputRow3" />
+
     <TextView
+        android:id="@+id/lblRow3_Col"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/_false"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblRow2_Col" />
+
+    <TextView
+        android:id="@+id/lblRow4_Col"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/_false"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblRow3_Col" />
+
+    <TextView
+        android:id="@+id/lblRow4_Col2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="56dp"
+        android:text="@string/_false"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/inputRow2"
+        app:layout_constraintStart_toEndOf="@+id/lblRow4_Col"
+        app:layout_constraintTop_toBottomOf="@+id/lblRow3_Col2" />
+
+    <TextView
+        android:id="@+id/lblRow3_Col2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="55dp"
+        android:text="@string/_true"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/inputRow3"
+        app:layout_constraintStart_toEndOf="@+id/lblRow3_Col"
+        app:layout_constraintTop_toBottomOf="@+id/lblRow2_Col2" />
+
+    <EditText
+        android:id="@+id/inputRow3"
+        android:layout_width="89dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="63dp"
+        android:autoText="true"
+        android:digits="@string/acceptedDigits"
+        android:ems="10"
+        android:hint="@string/hint"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputRow2" />
+
+    <EditText
+        android:id="@+id/inputRow2"
+        android:layout_width="89dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="63dp"
+        android:autoText="false"
+        android:digits="@string/acceptedDigits"
+        android:ems="10"
+        android:hint="@string/hint"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputRow1" />
+
+    <TextView
+        android:id="@+id/lblRow2_Col"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/_true"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblRow1_Col1" />
+
+    <TextView
+        android:id="@+id/lblRow2_Col2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="55dp"
+        android:text="@string/_false"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/inputRow2"
+        app:layout_constraintStart_toEndOf="@+id/lblRow2_Col"
+        app:layout_constraintTop_toBottomOf="@+id/lblRow1_Col2" />
+
+    <TextView
+        android:id="@+id/lblRow1_Col2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="55dp"
+        android:text="@string/_true"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/inputRow1"
+        app:layout_constraintStart_toEndOf="@+id/lblRow1_Col1"
+        app:layout_constraintTop_toBottomOf="@+id/lblTitleCol" />
+
+    <TextView
+        android:id="@+id/lblRow1_Col1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="37dp"
+        android:text="@string/_true"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblTitleCol0" />
+
+    <TextView
+        android:id="@+id/lblTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="122dp"
+        android:text="@string/title"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblTitleCol0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="169dp"
+        android:text="@string/col0"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblTitleCol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="77dp"
+        android:text="@string/col1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/lblTitleCol2"
+        app:layout_constraintStart_toEndOf="@+id/lblTitleCol0"
+        app:layout_constraintTop_toBottomOf="@+id/lblTitle" />
+
+    <TextView
+        android:id="@+id/lblTitleCol2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="169dp"
+        android:layout_marginEnd="79dp"
+        android:text="@string/col2"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputRow1"
+        android:layout_width="89dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="63dp"
+        android:autoText="false"
+        android:digits="@string/acceptedDigits"
+        android:ems="10"
+        android:hint="@string/hint"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblTitleCol2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="125dp"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
